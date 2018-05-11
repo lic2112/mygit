@@ -28,3 +28,25 @@ function myDate() {
     }
     return y + '年' + zero(m1 + 1) + '月' + zero(mydate) + '日 ' + day + ' ' + zero(h) + ':' + zero(m2) + ':' + zero(s);
 }
+
+//设置cookie
+function setCookie(key, value, num) {
+    var d = new Date();
+    d.setDate(d.getDate() + num);
+    document.cookie = key + '=' + value + ';expires=' + d;
+}
+//删除cookie
+function removeCookie(key) {
+    setCookie(key, 123123, -1)
+}
+//获取cookie
+function getCookie(key) {
+    var str = document.cookie;
+    var arr = str.split('; ')
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i].split('=')[0] == key) {
+            return arr[i].split('=')[1];
+        }
+    }
+    return null;
+}
