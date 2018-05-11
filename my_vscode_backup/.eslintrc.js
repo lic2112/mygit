@@ -137,7 +137,7 @@ module.exports = {
         }
     ],
     // error; 变量使用之前必须进行定义
-    'no-use-before-define': 2,
+    'no-use-before-define': 0,
 
     // section 4: 代码风格相关
     // off; 数组前后括号必须换行的要求有点严格，不采纳
