@@ -50,3 +50,16 @@ function getCookie(key) {
     }
     return null;
 }
+
+// 事件委托
+function eventEnt(children, callback) {
+    return function (eve) {
+        var e = eve || event
+        var target = e.target || e.srcElement
+        for (var i = 0; i < children.length; i++) {
+            if (children[i] == target) {
+                if (callback) callback.bind(target)()
+            }
+        }
+    }
+}
