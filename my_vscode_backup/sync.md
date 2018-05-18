@@ -1,5 +1,4 @@
-﻿id
-a78a2bb7db5fd2eea6de066e6a7994f3 
+﻿Sync : Upload Complete. GIST ID :  df310802ec640ed7bc1b39ca510e9e24 . Please copy and use this ID in other machines to download settings.
 
-Please copy and use this ID in other machines to download settings.
-
+Token
+6731cd002a08c9b7e663ef567df70a94eb4229c4
