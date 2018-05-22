@@ -17,10 +17,10 @@ function move(ele, obj, fn) {
             } else {
                 ele.style[attr] = iNow + 'px'
             }
-            if (onOff) {
-                clearInterval(ele.timer)
-                if (fn) fn()
-            }
+        }
+        if (onOff) {
+            clearInterval(ele.timer)
+            if (fn) fn()
         }
     }, 30);
 }
