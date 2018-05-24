@@ -4,7 +4,7 @@ function ajaxGet(url, fn) {
     } else {
         var ajax = new ActiveXObject('Microsoft.XMLHTTP');      //IE
     }
-    ajax.open('get', url + '?t=' + new Date().getDate(), true);
+    ajax.open('get', url, true);
     ajax.onreadystatechange = function () {
         if (ajax.readyState == 4 && ajax.status == 200) {
             fn(ajax.responseText);
