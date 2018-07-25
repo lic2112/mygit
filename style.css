@@ -8,4 +8,4 @@ ul, ol { list-style:none; }
 body { color:#333; /* padding:5px 0; */ font:14px/20px HELVETICA,"微软雅黑"; background:#fff; overflow-y:scroll; overflow-x:hidden;}
 a { color:#666; text-decoration:none; }
 a:visited { color:#666; }
-/* a:hover, a:active, a:focus { /* color:#ff8400; */ text-decoration:underline; } */
+/* a:hover, a:active, a:focus { color:#ff8400;  text-decoration:underline; }  */
